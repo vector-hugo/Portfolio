@@ -1,0 +1,124 @@
+.sidebar {
+    
+    display: flex;
+    
+    width: 366px;
+    height: 1202px;
+    padding: 48px 33px;
+    flex-direction: column;
+    align-items: center;
+    /*gap: 36px;*/
+    background-color: #FFA987;
+
+}
+
+.progress-bar {
+    background-color: #CE7552;
+    width: 200px;
+    height: 16px;
+    border-radius: 10px;
+
+}
+
+.progress-bar .figma {
+
+    background-color: #F7EBE8;
+    width: 90%;
+    height: 16px;
+    border-radius: 10px;
+}
+
+.progress-bar .html {
+
+    background-color: #F7EBE8;
+    width: 50%;
+    height: 16px;
+    border-radius: 10px;
+}
+
+.progress-bar .css {
+
+    background-color: #F7EBE8;
+    width: 40%;
+    height: 16px;
+    border-radius: 10px;
+}
+
+.progress-bar .javascript {
+
+    background-color: #F7EBE8;
+    width: 10%;
+    height: 16px;
+    border-radius: 10px;
+}
+
+.sidebar .sidebar-content img {
+    width: 192px;
+    height: 192px;
+    border-radius: 100%;
+    stroke-width: 1.5px;
+    stroke: #CE7552;
+    
+}
+
+
+.sidebar .sidebar-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 36px;
+}
+
+.sidebar .sidebar-content .sidebar-subcontent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 36px;
+}
+
+.sidebar .sidebar-content .sidebar-subcontent .competencias {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 18px;
+}
+
+.sidebar .sidebar-content .sidebar-subcontent .competencias .competencias-lista {
+    display: flex;
+    width: 281px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+}
+
+.sidebar .sidebar-content .sidebar-subcontent .competencias .competencias-lista li {
+
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    align-self: stretch;
+
+}
+
+.sidebar .sidebar-content .sidebar-subcontent .competencias .competencias-lista li h5 {
+
+    width: 77px;
+}
+
+.sidebar .sidebar-content .sidebar-subcontent .habilidades {
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 18px;
+    align-self: stretch;
+
+}
+
+.sidebar .sidebar-content .sidebar-subcontent .habilidades .habilidades-lista{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 18px;
+    align-self: stretch;
+}
